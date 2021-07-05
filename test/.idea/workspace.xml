@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ca57b36-036f-4ad4-8819-b053ff988df5" name="Default Changelist" comment="" />
+    <list default="true" id="9ca57b36-036f-4ad4-8819-b053ff988df5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Channels.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_build_goroutines_clinet_go.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_build_goroutines_server_go.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_build_test_go.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroutines_clinet.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutines_clinet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroutines_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutines_server.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +32,11 @@
     </option>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1uk9VzV9GN6BW2Po71IJCQ6gloY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,13 +52,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Go Build.go build goroutines_clinet.go">
+  <component name="RunManager" selected="Go Build.go build Channels.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/../test|$PROJECT_DIR$/test.go" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Channels.go" />
       <directory value="$PROJECT_DIR$" />
       <output_directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -71,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Channels.go" />
         <item itemvalue="Go Build.go build goroutines_clinet.go" />
         <item itemvalue="Go Build.go build goroutines_server.go" />
         <item itemvalue="Go Build.go build test.go" />
@@ -80,6 +111,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="1265" y="427" key="#Deployment" timestamp="1625209498944">
@@ -98,10 +140,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1249" y="414" key="#SSH_Configurations/0.0.2560.1400@0.0.2560.1400" timestamp="1625209291500" />
-    <state x="1109" y="473" width="1092" height="718" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625209102665">
+    <state x="1109" y="473" width="1092" height="718" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625465893349">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1109" y="473" width="1092" height="718" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1625209102665" />
+    <state x="1109" y="473" width="1092" height="718" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1625465893349" />
     <state x="1369" y="566" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625206406024">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -114,22 +156,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1396" y="533" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1625451600137" />
-    <state width="617" height="401" key="GridCell.Tab.0.bottom" timestamp="1625465296456">
+    <state width="800" height="401" key="GridCell.Tab.0.bottom" timestamp="1625471325053">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="617" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1625465296456" />
-    <state width="617" height="401" key="GridCell.Tab.0.center" timestamp="1625465296456">
+    <state width="800" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1625471325053" />
+    <state width="800" height="401" key="GridCell.Tab.0.center" timestamp="1625471325053">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="617" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1625465296456" />
-    <state width="617" height="401" key="GridCell.Tab.0.left" timestamp="1625465296456">
+    <state width="800" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1625471325053" />
+    <state width="800" height="401" key="GridCell.Tab.0.left" timestamp="1625471325053">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="617" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1625465296456" />
-    <state width="617" height="401" key="GridCell.Tab.0.right" timestamp="1625465296456">
+    <state width="800" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1625471325053" />
+    <state width="800" height="401" key="GridCell.Tab.0.right" timestamp="1625471325053">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="617" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1625465296456" />
+    <state width="800" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1625471325053" />
     <state x="1114" y="418" key="SettingsEditor" timestamp="1625212927760">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -142,5 +184,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1551" y="499" key="ftp.server.browser/0.0.2560.1400@0.0.2560.1400" timestamp="1625209356552" />
+    <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1625471299323">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1625471299323" />
   </component>
 </project>
