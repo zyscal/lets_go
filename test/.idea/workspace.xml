@@ -11,13 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca57b36-036f-4ad4-8819-b053ff988df5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Channels.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about_select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_build_Channels_go_interface_test_go.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_build_Interface_go.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_build_about_select_go.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_build_context_go.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_build_interface_test_go.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_build_goroutines_clinet_go.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_build_goroutines_server_go.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_build_test_go.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goroutines_clinet.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutines_clinet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goroutines_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutines_server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +39,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1uk9VzV9GN6BW2Po71IJCQ6gloY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,10 +55,15 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/interface_test.go" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Go Build.go build Channels.go">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\go\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build about_select.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,11 +74,29 @@
       <output_directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Channels.go" />
+      <filePath value="$PROJECT_DIR$/Interface.go" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build about_select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/about_select.go" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build context.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/context.go" />
       <directory value="$PROJECT_DIR$" />
       <output_directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -90,21 +119,31 @@
       <output_directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build interface_test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test.go" />
+      <filePath value="$PROJECT_DIR$/interface_test.go" />
       <directory value="$PROJECT_DIR$" />
       <output_directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build interface_test.go" />
+      <item itemvalue="Go Build.go build goroutines_clinet.go" />
+      <item itemvalue="Go Build.go build goroutines_server.go" />
+      <item itemvalue="Go Build.go build Interface.go" />
+      <item itemvalue="Go Build.go build context.go" />
+      <item itemvalue="Go Build.go build about_select.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Channels.go" />
+        <item itemvalue="Go Build.go build about_select.go" />
+        <item itemvalue="Go Build.go build context.go" />
+        <item itemvalue="Go Build.go build Interface.go" />
         <item itemvalue="Go Build.go build goroutines_clinet.go" />
         <item itemvalue="Go Build.go build goroutines_server.go" />
-        <item itemvalue="Go Build.go build test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +162,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1265" y="427" key="#Deployment" timestamp="1625209498944">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -140,38 +182,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1249" y="414" key="#SSH_Configurations/0.0.2560.1400@0.0.2560.1400" timestamp="1625209291500" />
-    <state x="1109" y="473" width="1092" height="718" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625465893349">
+    <state x="1109" y="473" width="1092" height="809" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625536775812">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1109" y="473" width="1092" height="718" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1625465893349" />
-    <state x="1369" y="566" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625206406024">
+    <state x="1109" y="473" width="1092" height="809" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1625536775812" />
+    <state x="1369" y="566" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625536572133">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1369" y="566" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1625206406024" />
+    <state x="1369" y="566" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1625536572133" />
     <state x="1474" y="524" width="433" height="509" key="EnvironmentVariablesDialog" timestamp="1625207447426">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1474" y="524" width="433" height="509" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1625207447426" />
-    <state x="1396" y="533" key="FileChooserDialogImpl" timestamp="1625451600137">
+    <state x="1396" y="533" key="FileChooserDialogImpl" timestamp="1625536551270">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1396" y="533" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1625451600137" />
-    <state width="800" height="401" key="GridCell.Tab.0.bottom" timestamp="1625471325053">
+    <state x="1396" y="533" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1625536551270" />
+    <state width="1234" height="401" key="GridCell.Tab.0.bottom" timestamp="1625540663716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="800" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1625471325053" />
-    <state width="800" height="401" key="GridCell.Tab.0.center" timestamp="1625471325053">
+    <state width="1234" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1625540663716" />
+    <state width="1234" height="401" key="GridCell.Tab.0.center" timestamp="1625540663716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="800" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1625471325053" />
-    <state width="800" height="401" key="GridCell.Tab.0.left" timestamp="1625471325053">
+    <state width="1234" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1625540663716" />
+    <state width="1234" height="401" key="GridCell.Tab.0.left" timestamp="1625540663716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="800" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1625471325053" />
-    <state width="800" height="401" key="GridCell.Tab.0.right" timestamp="1625471325053">
+    <state width="1234" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1625540663716" />
+    <state width="1234" height="401" key="GridCell.Tab.0.right" timestamp="1625540663716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="800" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1625471325053" />
+    <state width="1234" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1625540663716" />
     <state x="1114" y="418" key="SettingsEditor" timestamp="1625212927760">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
